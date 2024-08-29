@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+$spcolornavy: #2b2d42;
+$spcoloroffwhite: #f5f7f0;
+$spcolorgreyedpurple: #897f99;
+$spcoloricedblue: #d0dcd1;
+$spcolorblue: #779cab;
+
+
+// Resets
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Protest Riot",
+    sans-serif;
+  color: $spcolornavy;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: $spcoloroffwhite;
+}
+
+a {
+  text-decoration: none;
+  color: $spcolornavy;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+// Custom Styles
+
+header {
+  background-color: $spcolorgreyedpurple;
+
+  h1 {
+    letter-spacing: 2px;
+    font-size: 42px;
+  }
+
+  nav {
+    a {
+      padding-right: 10px;
+      padding-left: 30px;
+      font-size: 22px;
+
+      &.active,
+      &:hover {
+        color: $spcoloricedblue;
+        text-decoration: underline;
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+.about-me {
+  padding: 30px 10%;
+
+  img {
+    display: block;
+    margin-bottom: 25px;
+    ;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 18px !important;
+  }
+}
+
+.footer {
+
+  a {
+    margin: 0 30px;
+  }
+}
+
+// Portfolio Page
+
+section.portf-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+  img {
+    height: 100%;
+    // aspect-ratio: 1/1;
+  }
+}
+
+.github-label {
+  font-size: small;
+}
+
+// Resume Page
+
+.resume-link {
+  font-size: 30px;
+
+
+  &:hover {
+    color: $spcolorblue !important;
+    text-decoration: underline;
+    font-size: 26px;
+  }
+
+  a {
+    color: inherit !important;
+  }
+}
+
+
+// Contact Page
+.contact-header {
+  // margin-top: 45px;
+  font-size: 36px;
+}
+
+form.contact-form {
+  margin: 15px auto 0;
+  width: 450px;
+
+  >* {
+    padding: 6px 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+
+    &:focus {
+      outline: 1px solid $spcolorblue;
+    }
+  }
+
+  button {
+    background-color: $spcolorblue;
+    padding: 10px;
+    width: 35%;
+    align-self: center;
+  }
+}
+
+.alert-message {
+  margin: 20px;
+}
+
+// Media Queries
+
+@media(max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: column !important;
+
+    h1 {
+      font-size: 3rem !important;
+      text-align: center;
+    }
+
+    nav a {
+      font-size: 1.5rem;
+
+      &.active,
+      &:hover {
+        font-size: 1.75rem;
+      }
+    }
+  }
+}
