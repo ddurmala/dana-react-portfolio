@@ -1,8 +1,10 @@
+import oopsimg from '/src/images/oops.png'
+
 function NotFound() {
     return (
         <>
-            <section>
-                <img src="/images/sad_witch.png" />
+            <section className='notfound'>
+                <img src={oopsimg} />
                 <p>...page not found</p>
             </section>
         </>

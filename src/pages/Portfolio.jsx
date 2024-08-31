@@ -6,6 +6,7 @@ import statspng from '../images/statsketball-ss.png'
 import techtalkpng from '../images/tech-talk-ss.png'
 import taskboardpng from '../images/task-board-ss.png'
 import socialnetwork from '../images/social-network-backend-ss.png'
+import teachersassist from '../images/teachers-assist.png'
 
 const items = [
     {
@@ -21,7 +22,7 @@ const items = [
         description: 'A full-stack application that allows teachers to register as a user, log in and store information about their classroom.  Teachers create, edit and delete students & include information.',
         technologies: 'HTML | CSS | JS | Node.js | RESTful API | Handlebars | PostgreSQL | Sequelize ORM',
         githubRepo: 'https://github.com/ddurmala/teachers_assistant',
-        image: ''
+        image: teachersassist
     },
     {
         title: 'Weather App',
@@ -66,7 +67,7 @@ function Portfolio() {
 
     return (
         <>
-            <section className="portf-items">
+            <section className="portf-items mx-4">
                 {portfolioItems}
             </section>
 

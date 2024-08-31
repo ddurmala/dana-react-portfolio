@@ -80,7 +80,6 @@ header {
 }
 
 .footer {
-
   a {
     margin: 0 30px;
   }
@@ -152,6 +151,17 @@ form.contact-form {
 
 .alert-message {
   margin: 20px;
+}
+
+// not found page 
+
+.notfound {
+  text-align: center;
+  margin-bottom: 10%;
+
+  p {
+    font-size: 2rem;
+  }
 }
 
 // Media Queries
