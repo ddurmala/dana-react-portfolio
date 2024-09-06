@@ -7,14 +7,16 @@ import techtalkpng from '../images/tech-talk-ss.png'
 import taskboardpng from '../images/task-board-ss.png'
 import socialnetwork from '../images/social-network-backend-ss.png'
 import teachersassist from '../images/teachers-assist.png'
+import artnook from '../images/artnook-landing.png'
 
 const items = [
     {
-        title: 'Statsketball',
-        description: 'An interactive front-end project that allows users to search and receive information about any NBA player past or present.  Statsketball uses API to provide information about players as well as display a current-season stats board.',
-        technologies: 'HTML | CSS | JS | Bulma | API | ',
-        githubRepo: 'https://github.com/Frxctxl/Statsketball',
-        image: statspng
+        title: 'Art Nook',
+        description: 'An interactive MERN Stack application that allows users to view small artists artwork. User can register/login to submit their own artwork that is shared with the entire community',
+        technologies: 'MongoDB | Express | React | Node | Bootsrap | Cloudinary',
+        githubRepo: 'https://github.com/rosey-flo/Art-Nook',
+        website: 'https://art-nook.onrender.com/',
+        image: artnook
 
     },
     {
@@ -22,7 +24,17 @@ const items = [
         description: 'A full-stack application that allows teachers to register as a user, log in and store information about their classroom.  Teachers create, edit and delete students & include information.',
         technologies: 'HTML | CSS | JS | Node.js | RESTful API | Handlebars | PostgreSQL | Sequelize ORM',
         githubRepo: 'https://github.com/ddurmala/teachers_assistant',
+        website: 'https://teachers-assistant.onrender.com',
         image: teachersassist
+    },
+    {
+        title: 'Statsketball',
+        description: 'An interactive front-end project that allows users to search and receive information about any NBA player past or present.  Statsketball uses API to provide information about players as well as display a current-season stats board.',
+        technologies: 'HTML | CSS | JS | Bulma | API | ',
+        githubRepo: 'https://github.com/Frxctxl/Statsketball',
+        website: 'https://frxctxl.github.io/Statsketball/',
+        image: statspng
+
     },
     {
         title: 'Weather App',

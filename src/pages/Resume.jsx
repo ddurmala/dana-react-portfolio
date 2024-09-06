@@ -1,6 +1,6 @@
 function Resume() {
 
-    const resumeURL = 'https://drive.google.com/file/d/1db8QeiMCpqJ1zqD3hdfZIQyyPi63xlak/view?usp=sharing'
+    const resumeURL = 'https://drive.google.com/file/d/1igS2bvKwcgxOp1c1gOCDetXXvQMBxn7S/view?usp=sharing'
 
     return (
         <>
