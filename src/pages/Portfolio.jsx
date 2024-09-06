@@ -48,6 +48,7 @@ const items = [
         description: 'a CMS-style blog site where individuals can share thoughts and leave comments.  Users can register and login to create posts and leave comments. ',
         technologies: 'Express | Handlebars | PostgreSQL | Sequelize | MVC',
         githubRepo: 'https://github.com/ddurmala/tech-blog',
+        website: 'https://tech-blog-bato.onrender.com/',
         image: techtalkpng
     },
     {
