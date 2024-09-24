@@ -14,7 +14,7 @@ const items = [
         title: 'Art Nook',
         description: 'An interactive MERN Stack application that allows users to view small artists artwork. User can register/login to submit their own artwork that is shared with the entire community',
         technologies: 'MongoDB | Express | React | Node | Bootsrap | Cloudinary',
-        githubRepo: 'https://github.com/rosey-flo/Art-Nook',
+        githubRepo: 'https://github.com/ddurmala/Art-Nook',
         website: 'https://art-nook.onrender.com/',
         image: artnook
 
