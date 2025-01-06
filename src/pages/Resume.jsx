@@ -14,7 +14,7 @@ function Resume() {
                 <h5 className='mb-5'>Click the link below to download my full resume:</h5>
                 <p className="my-3 resume-link">
 
-                    <a href={resumeURL} download="DC-Dev-Resume.pdf" >
+                    <a href={resumeURL} download="DC-Dev-Resume.pdf" target="_blank" rel="noopener noreferrer" >
 
                         <img style={{ height: '2.75rem' }} src={fileDownload} className='mb-3' />
                         <br />
@@ -24,21 +24,7 @@ function Resume() {
                 </p>
             </section>
 
-            <section className="text-center p-4 my-3">
 
-                {/* Google Docs versions of Resume */}
-
-                <h5>
-                    ...for a Google Docs version of my resume, click here :
-                </h5>
-
-                <a href={gDocResume} className='d-flex justify-content-center align-items-center mt-4 resume-link'>
-                    <img style={{ height: '2rem' }} src={fileText} className='mb-0 ' />
-
-                    <p className='mb-0 ms-2 fs-3'>Dana's Resume (Google Docs)</p>
-                </a>
-
-            </section>
         </>
     )
 }
