@@ -4,7 +4,7 @@ import fileText from 'bootstrap-icons/icons/file-text.svg'
 
 function Resume() {
 
-    const resumeURL = 'https://drive.google.com/file/d/1igS2bvKwcgxOp1c1gOCDetXXvQMBxn7S/view?usp=sharing'
+    const resumeURL = 'https://drive.google.com/file/d/1So_5yYcOTgz3cQZq7MgIYEvswKQ-vFBU/view?usp=sharing'
 
     const gDocResume = 'https://docs.google.com/document/d/1tjrQz4MHVP33DOwslxzLYuS4C4ctpSBOxIkYzOk1d3I/edit?usp=drive_link';
 
