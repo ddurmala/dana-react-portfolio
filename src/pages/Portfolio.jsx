@@ -14,8 +14,8 @@ import simmersoup from '../images/simmer-soup.png'
 const items = [
     {
         title: 'Simmer Soup Co.',
-        description: 'A full-Stack application designed for a small local business client who is selling delicious homemade soups.',
-        technologies: 'React | Node | Bulma | Axios',
+        description: 'A full-stack application developed for a small local business specializing in selling delicious homemade soups, designed to enhance their online presence and streamline customer engagement.',
+        technologies: 'HTML | CSS | JS | React | Node | Bulma | Axios',
         githubRepo: 'https://github.com/ddurmala/simmer_soup_co',
         website: 'https://simmersoupco.netlify.app/',
         image: simmersoup
