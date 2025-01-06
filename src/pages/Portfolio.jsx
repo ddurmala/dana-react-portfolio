@@ -8,8 +8,19 @@ import taskboardpng from '../images/task-board-ss.png'
 import socialnetwork from '../images/social-network-backend-ss.png'
 import teachersassist from '../images/teachers-assist.png'
 import artnook from '../images/artnook-landing.png'
+import simmersoup from '../images/simmer-soup.png'
+
 
 const items = [
+    {
+        title: 'Simmer Soup Co.',
+        description: 'A full-Stack application designed for a small local business client who is selling delicious homemade soups.',
+        technologies: 'React | Node | Bulma | Axios',
+        githubRepo: 'https://github.com/ddurmala/simmer_soup_co',
+        website: 'https://simmersoupco.netlify.app/',
+        image: simmersoup
+
+    },
     {
         title: 'Art Nook',
         description: 'An interactive MERN Stack application that allows users to view small artists artwork. User can register/login to submit their own artwork that is shared with the entire community',
