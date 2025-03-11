@@ -104,6 +104,14 @@ section.portf-items {
   }
 }
 
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
 .github-label {
   font-size: small;
 }
@@ -190,5 +198,15 @@ form.contact-form {
         font-size: 1.75rem;
       }
     }
+  }
+}
+
+@media(min-width:600px) {
+  .card-title {
+    font-size: 1.6rem;
+  }
+
+  .card-text {
+    font-size: 1.25rem;
   }
 }

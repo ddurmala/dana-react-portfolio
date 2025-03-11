@@ -9,6 +9,7 @@ import socialnetwork from '../images/social-network-backend-ss.png'
 import teachersassist from '../images/teachers-assist.png'
 import artnook from '../images/artnook-landing.png'
 import simmersoup from '../images/simmer-soup.png'
+import hackathonproject from '../images/hackathon_screenshot.png'
 
 
 const items = [
@@ -24,10 +25,18 @@ const items = [
     {
         title: 'Art Nook',
         description: 'An interactive MERN Stack application that allows users to view small artists artwork. User can register/login to submit their own artwork that is shared with the entire community',
-        technologies: 'MongoDB | Express | React | Node | Bootsrap | Cloudinary',
+        technologies: 'MongoDB | Express | React | Node | Bootstrap | Cloudinary',
         githubRepo: 'https://github.com/ddurmala/Art-Nook',
         website: 'https://art-nook-5ewk.onrender.com/homepage',
         image: artnook
+
+    },
+    {
+        title: '2025 Adventure Ted Hackathon',
+        description: 'This program downloads and saves all swaps for a specific market wihtin a specific month into a database.  Each trade is compared with the mid-price on Binance.  This information is translated to a graph.',
+        technologies: 'REACT | Express | MongoDB | Node | RESTful API | Plotly.js',
+        githubRepo: 'https://github.com/ddurmala/childhood-cancer-society-hackathon',
+        image: hackathonproject
 
     },
     {
